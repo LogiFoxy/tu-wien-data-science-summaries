@@ -32,7 +32,7 @@ answer (number):
 
 answer (number):
 
-- recall@10 = 6/18 = 0,33
+- recall@18 = 6/20 = 0,30
 
 ---
 
@@ -83,8 +83,8 @@ answer (number):
 
 **question**: If two users have rated the same items, and one gives consistently half a star higher ratings than the other, then their similarity based on Pearson's correlation coefficient is 1.
 
-answer (boolean):
-
+answer (boolean): 
+- True
 - their ratings would still be perfectly aligned in a linear manner, resulting in a coefficient of 1
 - proof:
 	- ratings: $X_i$, $Y_i$
